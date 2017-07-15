@@ -1,0 +1,9 @@
+﻿<Window x:Class="spex.CaptureWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:test="clr-namespace:spex"
+        Title="CaptureWindow" Closing="Window_Closing_1">
+    <Viewbox Stretch="Fill">
+        <Image x:Name="image"></Image>
+    </Viewbox>
+</Window>
